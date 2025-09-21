@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "109437244352",
+    "project_id": "ecoland-b061c",
+    "storage_bucket": "ecoland-b061c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109437244352:android:faaad31349e1ba6a68ee25",
+        "android_client_info": {
+          "package_name": "com.ecolandinc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC55M0afH5fYPhzKFYJNSMuAO9u0TypoIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,110 @@
+name: ecoland
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2
+  get_storage: ^2.1.1
+  http: ^1.3.0
+  intl: ^0.20.2
+  calendar_date_picker2: ^1.1.9
+  jwt_decoder: ^2.0.1
+  flutter_svg: ^2.0.17
+  location: ^7.0.1
+  flutter_typeahead: ^5.2.0
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  image_picker: ^1.1.2
+  dio: ^5.8.0+1
+  cached_network_image: ^3.4.1
+  local_auth: ^2.3.0
+  firebase_core: ^3.13.1
+  firebase_messaging: ^15.2.6
+  flutter_local_notifications: ^19.2.1
+  carousel_slider: ^5.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: assets/images/app-logo.png
+
+flutter:
+  assets:
+    - assets/
+    - assets/site/
+    - assets/images/
+    - assets/images/kdrama/
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/montserrat/static/Montserrat-Thin.ttf
+          weight: 100
+          style: normal
+        - asset: assets/fonts/montserrat/static/Montserrat-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/montserrat/static/Montserrat-ExtraLight.ttf
+          weight: 200
+          style: normal
+        - asset: assets/fonts/montserrat/static/Montserrat-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/montserrat/static/Montserrat-Light.ttf
+          weight: 300
+          style: normal
+        - asset: assets/fonts/montserrat/static/Montserrat-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/montserrat/static/Montserrat-Regular.ttf
+          weight: 400
+          style: normal
+        - asset: assets/fonts/montserrat/static/Montserrat-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/montserrat/static/Montserrat-Medium.ttf
+          weight: 500
+          style: normal
+        - asset: assets/fonts/montserrat/static/Montserrat-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/montserrat/static/Montserrat-SemiBold.ttf
+          weight: 600
+          style: normal
+        - asset: assets/fonts/montserrat/static/Montserrat-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/montserrat/static/Montserrat-Bold.ttf
+          weight: 700
+          style: normal
+        - asset: assets/fonts/montserrat/static/Montserrat-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/montserrat/static/Montserrat-ExtraBold.ttf
+          weight: 800
+          style: normal
+        - asset: assets/fonts/montserrat/static/Montserrat-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/montserrat/static/Montserrat-Black.ttf
+          weight: 900
+          style: normal
+        - asset: assets/fonts/montserrat/static/Montserrat-BlackItalic.ttf
+          weight: 900
+          style: italic
+
+  uses-material-design: true
